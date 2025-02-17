@@ -48,13 +48,13 @@ Now your project is successfully pushed to GitHub!
 If you have accidentally committed a folder and want to remove it from tracking:
 
 ```sh
-git rm -r --cached logs
+git rm -r --cached <folder name>
 ```
 
 Commit the changes:
 
 ```sh
-git commit -m "Removed logs folder from Git tracking"
+git commit -m "Removed <folder name> folder from Git tracking"
 ```
 
 Push the changes to the remote repository:
